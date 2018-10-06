@@ -1,0 +1,206 @@
+body, body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+
+/* Write all your CSS here! */
+
+#logo-navbar {
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+
+#navs {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.logo-div {
+    display: flex;
+}
+
+.tech-karo-logo {
+    display: flex;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    color: #de0336;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.tech-karo-logo span {
+    font-size: 1.9em;
+    color: #de0336;
+}
+
+#logo {
+    background-image: url("images/logo.png");
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.flags {
+    display: flex;
+    margin-right: 5px;
+    padding: 5px;
+    
+}
+
+.us {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/en-flag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.pak {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/ur-flag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 0.5em;    
+    cursor: pointer;
+}
+
+.china {
+    height: 50px;
+    width: 50px;
+    background-image: url("images/zh-flag.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+.my-second-nav {
+    background-color: #343a40 !important;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+ul {
+    margin-left: auto!important;
+}
+
+.text {
+    font-weight: 500px;
+    padding: 0.5em 1.6em !important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.heading {
+    padding: 16px;
+    background-color: #ebf5eb;
+    border: none;
+}
+
+h6 {
+    color: white;
+    font-family: 'Racing Sans One', cursive;
+}
+
+.container {
+    height: 800px;
+    margin-top: 10px;
+    padding-right: 5px;
+    padding: 20px;
+}
+
+#img-sec {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h5, p {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+p {
+    font-weight: 600;
+}
+
+#img-div {
+    width: 600px;
+    height: auto;
+    background-color: white;
+    justify-content: flex-start;
+}
+
+.right-div {
+    height: auto;
+    width: 400px;
+    margin-left: 5px;
+}
+
+.green-div {
+    background-color: #2da745;
+    border: none;
+    width: 220px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.green-div-2 {
+    margin-left: 5px;
+    background-color: #2da745;
+    border: none;
+    width: 230px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+.image {
+    height: 400px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fas, span {
+    color: #72ae45;
+    font-size: 16px;
+}
+
+.date-calender {
+    display: flex;
+    padding: 1em 1em;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+h5 {
+    font-weight: 700;
+    margin-top: 1em;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+#logo-navbar {
+    position: sticky;
+}
+p{
+    color:#96928b;
+}

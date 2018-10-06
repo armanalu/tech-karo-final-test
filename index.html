@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TechKaro Test</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+     <!-- title-icon  -->
+      <link rel="icon" type="image/ico" href="images/logo.png" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- google-font-link -->
+    <link href="https://fonts.googleapis.com/css?family=Knewave|Racing+Sans+One|Sriracha" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body onload="initializer('en')">
+    <section id="navs">
+          <nav class="navbar navbar-light bg-light" id="logo-navbar">
+    <a href="http://www.technologyreview.pk/tag/techkaro/">
+    <div class="logo-div">
+    <div id="logo"></div>
+    <div class="tech-karo-logo"><span>T</span>ech<span>K</span>aro</div>
+    </div>  
+   </a>
+   <div class="flags"> 
+   <div class="us" onclick="initializer('en')"></div>
+   <div class="pak" onclick="initializer('ur')"></div>
+   <div class="china" onclick="initializer('zh')"></div>
+   </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-second-nav" id="dark-nav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar-texts">
+  <ul class="navbar-nav grey-nav">
+       
+  </ul>
+
+</div>
+</nav>
+    </section>
+        <!--card-->
+    <section class="container ">
+         <div class="card heading"><h2>A Flower A Day.....</h2></div>
+    <div class="card green-div"><h6>What's new at Techkaro?</h6></div>
+<section id="img-sec">
+      <div class="card" id="img-div" >
+<div class="image"></div>
+<div class="date-calender">
+                  <div class="date"></div>
+                  <div ><i class="fas fa-user"></i> by <span>TechKaro Community</span></div>
+              </div>   
+<h5 class=flower-heading-1></h5>
+<p class="flower-para-1"></p>
+</div>
+<div class="right-div">
+<div class="card green-div-2"><h6>New to Techkaro?Learn More></h6></div>
+<div class="card">
+<div class="card-body">
+<h5 class="flower-heading-2"></h5>
+<p class="flower-para-2"></p>
+</div>
+</div>
+</div>
+</section>
+    </section>
+    <!-- Write your HTML code here! Any data that will be fetched from the API should not be hard-coded here! -->
+    <!-- SCRIPTS -->
+    <!-- ma'am-Scripts-links -->
+    <!--jquery-cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
