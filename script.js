@@ -5,7 +5,7 @@ function initializer(locale) {
         success: function (data) {
                // light-nav-bar
     let lightNavBar = document.querySelector(".grey-nav");
-    for (let i = 0 ; i < 4 ; i ++){
+    for (let i = 0 ; i < data.menuOotion.length ; i ++){
             lightNavBar.innerHTML +=`
     <li class="nav-item">
           <a href="#" class="nav-link text">${data.menuOptions[i]}</a>
